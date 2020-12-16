@@ -1,0 +1,955 @@
+
+> tutorial-testcafe@1.0.0 test C:\backup\Work\GTA\Applitools\tutorial-testcafe
+> testcafe chrome ./tests/*
+
+ c:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\index.js
+Loading configuration from C:\backup\Work\GTA\Applitools\tutorial-testcafe\applitools.config.js
+ node_modules/@applitools/eyes-sdk-core/lib/utils/ConfigUtils.js
+2020-11-30T14:05:15Z Eyes: [LOG    ] {} Eyes.<init>(): [constructor] initial config {"agentId":"eyes-testcafe/1.11.1","failTestcafeOnDiff":true,"concurrency":1,"apiKey":"L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110","browser":[{"width":1200,"height":800,"name":"chrome"}],"batchName":"Holiday Shopping","showLogs":true}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:38Z Eyes: [LOG    ] {} Eyes.open(): [open] called by user
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:41Z Eyes: [LOG    ] {} (): got user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:41Z Eyes: [LOG    ] {} Eyes._openAndInitTest(): [_openAndInitTest] opening with {"agentId":"eyes-testcafe/1.11.1","failTestcafeOnDiff":true,"concurrency":1,"apiKey":"L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110","browser":[{"width":1200,"height":800,"name":"chrome"}],"batchName":"Holiday Shopping","showLogs":true,"appName":"AppliFashion","testName":"Test 1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:41Z Eyes: [VERBOSE] {} Object.openEyes(): openEyes: testName=Test 1, browser= [{"width":1200,"height":800,"name":"chrome"}]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:41Z Eyes: [LOG    ] {} EyesWrapper.setDeviceInfo(): Device Info: Desktop
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:41Z Eyes: [VERBOSE] {} EyesWrapper.setBatch(): setBatch(BatchInfo { {"id":"af742a63-b853-4e25-b88f-5b903af55f12","name":"Holiday Shopping","startedAt":"2020-11-30T14:05:41.193Z","notifyOnCompletion":false} })
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:41Z Eyes: [VERBOSE] {} ServerConnector.renderInfo(): ServerConnector.renderInfo called.
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:41Z Eyes: [VERBOSE] {} (): axios request interceptor - renderInfo [1--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://eyesapi.applitools.com/api/sessions/renderinfo with params {"apiKey":"L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:42Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderInfo [1--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://eyesapi.applitools.com/api/sessions/renderinfo
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:42Z Eyes: [VERBOSE] {} ServerConnector.renderInfo(): ServerConnector.renderInfo - post succeeded RenderingInfo { {"serviceUrl":"https://render-wus.applitools.com","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJUM1luR09MVWhFV0NzMldGZGZVRGlnfn4iLCJpYXQiOjE2MDY3NDUxNDIsImV4cCI6MTYwNjc2Njc0MiwiaXNzIjoiZXllc2FwaS5hcHBsaXRvb2xzLmNvbSxleWVzcHVibGljd3VzaTAuYmxvYi5jb3JlLndpbmRvd3MubmV0IiwidmdzZXJ2aWNldXJsIjoiaHR0cHM6Ly9yZW5kZXItd3VzLmFwcGxpdG9vbHMuY29tIiwicHJ2IjoiMCJ9.T5xaYN4vRHbhZY7ISwAjsNIedmzvaIPaTmhSOB8_P-BVkZ3f6XMlWx-zmcwm8RHSMBWj-10H9RX9fGfCS5CHFO53P9RHi-s82wms2Id_62eCujVInvpucGir7QmISJR2H5uklujfngBRxTIgn00kH-9syn6_pbfiWBC6BuSdauA","resultsUrl":"https://eyespublicwusi0.blob.core.windows.net/a162212-se/__random__?sv=2017-04-17&sr=c&sig=Tqjc3VnOW36kMULLlYg71v8kABnhMeulhvmrAC61TAg%3D&se=2020-12-01T14%3A05%3A42Z&sp=w&accessKey=L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110","stitchingServiceUrl":"https://eyesapi.applitools.com/api/images/stitching?accessKey=L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:42Z Eyes: [VERBOSE] {} Object.openEyes(): openEyes: opening wrappers
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:42Z Eyes: [VERBOSE] {} EyesWrapper.openBase(): Agent = eyes-testcafe/1.11.1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:42Z Eyes: [VERBOSE] {} EyesWrapper.openBase(): openBase('AppliFashion', 'Test 1', 'undefined')
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:42Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): Eyes server URL is 'https://eyesapi.applitools.com'
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:42Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): Timeout = 'undefined'
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:42Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): matchTimeout = '2000'
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:42Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): Default match settings = 'ImageMatchSettings { {"matchLevel":"Strict","ignoreCaret":true,"useDom":false,"enablePatterns":false,"ignoreDisplacements":false,"ignore":[],"layout":[],"strict":[],"content":[],"accessibility":[],"floating":[]} }'
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:42Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): FailureReports = 'ON_CLOSE'
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:42Z Eyes: [LOG    ] {} Eyes._handleResizeTestcafe(): setting testcafe viewport size {"width":1024,"height":768}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:43Z Eyes: [LOG    ] {} Eyes.checkWindow(): [checkWindow] called by user
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:43Z Eyes: [LOG    ] {} Eyes._processPage(): now running processPageAndSerialize with dontFetchResources set to undefined
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:43Z Eyes: [LOG    ] {} Eyes._processPageClientFunction(): [Test1] fetching ClientFunction result and its size
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:47Z Eyes: [LOG    ] {} Eyes._processPageClientFunction(): [Test1] done fetching ClientFunction result and its size
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:47Z Eyes: [LOG    ] {} Eyes._processPageClientFunction(): [Test1] starting to collect ClientFunction result of size 2016358
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:47Z Eyes: [LOG    ] {} Eyes._processPageClientFunction(): [Test1] getting ClientFunction result chunk 1 of 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [LOG    ] {} Eyes._processPageClientFunction(): [Test1] done collecting ClientFunction result of size 2016358
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [LOG    ] {} Eyes._mapProxyUrls(): mapping proxy url http://9.79.244.204:51383/v92grvInn*3FvaOe41D/
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [LOG    ] {} Eyes._mapProxyUrls(): mapping 3 css blobs
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [LOG    ] {} Eyes._mapProxyUrls(): mapping 1 style elements
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [LOG    ] {} Eyes._mapProxyUrls(): mapping 2 style attributes
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [LOG    ] {} Eyes._mapProxyUrls(): mapping 29 blob urls
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [LOG    ] {} Eyes._mapProxyUrls(): mapping 29 blob urls for sloppy proxy
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [LOG    ] {} Eyes.checkWindow(): [checkWindow] checking for test 'Test 1' with {"tag":"main page","target":"window","fully":true}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [LOG    ] {} Object.checkWindow(): running checkWindow for test Test 1 step #1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [VERBOSE] {} (): fetching https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap  {"headers":{"Referer":"https://demo.applitools.com/tlcHackathonMasterV1.html"}}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [VERBOSE] {} (): starting checkWindowJob. test=Test 1 stepCount #1 index=0
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [LOG    ] {} Eyes.close(): [close] called by user
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [LOG    ] {} Object.close(): closeEyes() called
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [VERBOSE] {} (): fetched https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [VERBOSE] {} (): fetching https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc9.ttf  {"headers":{"Referer":"https://demo.applitools.com/tlcHackathonMasterV1.html","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36"}}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [VERBOSE] {} (): fetching https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf  {"headers":{"Referer":"https://demo.applitools.com/tlcHackathonMasterV1.html","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36"}}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [VERBOSE] {} (): fetching https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc9.ttf  {"headers":{"Referer":"https://demo.applitools.com/tlcHackathonMasterV1.html","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36"}}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [VERBOSE] {} (): fetching https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc9.ttf  {"headers":{"Referer":"https://demo.applitools.com/tlcHackathonMasterV1.html","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36"}}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [VERBOSE] {} (): fetching https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc9.ttf  {"headers":{"Referer":"https://demo.applitools.com/tlcHackathonMasterV1.html","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36"}}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:48Z Eyes: [VERBOSE] {} (): fetched https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc9.ttf
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:49Z Eyes: [VERBOSE] {} (): fetched https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:49Z Eyes: [VERBOSE] {} (): fetched https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc9.ttf
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:49Z Eyes: [VERBOSE] {} (): fetched https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc9.ttf
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:49Z Eyes: [VERBOSE] {} (): fetched https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc9.ttf
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:49Z Eyes: [LOG    ] {} Object.setQueuedRendersCount(): setting queued renders count to 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:49Z Eyes: [LOG    ] {} (): starting to render test Test 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:49Z Eyes: [VERBOSE] {} ServerConnector.render(): ServerConnector.render called with RenderRequest { {"webhook":"https://eyespublicwusi0.blob.core.windows.net/a162212-se/__random__?sv=2017-04-17&sr=c&sig=Tqjc3VnOW36kMULLlYg71v8kABnhMeulhvmrAC61TAg%3D&se=2020-12-01T14%3A05%3A42Z&sp=w&accessKey=L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110","stitchingService":"https://eyesapi.applitools.com/api/images/stitching?accessKey=L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110","url":"https://demo.applitools.com/tlcHackathonMasterV1.html","dom":{"hashFormat":"sha256","hash":"ed296b06a0a5c6172d59ba8acfe8c773ec3f02f6cb2073e57dc29f0b75688f35","contentType":"x-applitools-html/cdt"},"resources":{"https://demo.applitools.com/tlc/css/bootstrap.custom.min.css":{"hashFormat":"sha256","hash":"21411ceabbedf2250b79cfae182e1c82bf1aae3a02f980da982b9419239fbb0c","contentType":"text/css"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.eot?":{"hashFormat":"sha256","hash":"8b9a3a2fc0bc6cb0173ac0d752965169a92a335cd99e38057f37f4c6fe05e8b4","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.woff":{"hashFormat":"sha256","hash":"ce7c87faefc2d24a152306ed78bfbe2027f95f7c3c1cd019c993d6fdad53334f","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.ttf":{"hashFormat":"sha256","hash":"808235fba4a63ed01c7206c046c2da276e24c8805bcf95598a8725cc736ce19a","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.svg":{"hashFormat":"sha256","hash":"339ea77828962d4facfd590e0aeecfb8f7b3de5b2c4ca6a4e235e173a9aec296","contentType":"image/svg+xml"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.eot?":{"hashFormat":"sha256","hash":"dff415daec911b65dca5be02071a1825b75508ff158de5b8d85976957db931cb","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.woff?-fvbane":{"hashFormat":"sha256","hash":"0db5c5a1475eb7a3e5028983ea1e642d1b2c00faff6a250a37502b0f3832a4a7","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.ttf?-fvbane":{"hashFormat":"sha256","hash":"350663a4665e00072c68a87ad3fa0be47b8a91424127f5f3e09f664197295f01","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.svg?-fvbane":{"hashFormat":"sha256","hash":"f7af2e096c85c2ed6f68bb086f792c67f2a6041cbb814fc2796912b2eef4fe76","contentType":"image/svg+xml"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.eot?33109840":{"hashFormat":"sha256","hash":"1817cd3555cee3184e2a125d58c0d85aedc52902aee5ac559d35fa896a0e4273","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.woff2?33109840":{"hashFormat":"sha256","hash":"9f70725d37935ff1f18297ef28ccebc6ee6efc891e074468c22aec350953fc9d","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.woff?33109840":{"hashFormat":"sha256","hash":"c704e96d8e1c270dfa30af3925544b898ae9e4e6acd2fa4e9d54690e19122c26","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.ttf?33109840":{"hashFormat":"sha256","hash":"132ae2935f299decf2a5ef7caefaff2f28a4034e43e61d835f7fb3e51d10d7b3","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.svg?33109840":{"hashFormat":"sha256","hash":"c39f7a8f2e1680283c220a1a55d64adc99bf0bee369554ce110b1f0437a66744","contentType":"image/svg+xml"},"https://demo.applitools.com/grid/img/bg_cat_shoes.jpg":{"hashFormat":"sha256","hash":"25dbaeae4f10f863cf7700e7acdf40b1f4edebf6f56fa66322b2928f10298a72","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/countdown_bg.svg":{"hashFormat":"sha256","hash":"2e025cc2038b1fc55f3f91b65d9525b126ad36851851d4789e22accba937f55b","contentType":"image/svg+xml"},"https://demo.applitools.com/tlc/css/tlcHackathonMasterV1.css":{"hashFormat":"sha256","hash":"e66eacabca828e51666294abe4d7b2bec97706e5bb3dfd399da627dd1c70f144","contentType":"text/css"},"https://demo.applitools.com/tlc/css/custom.css":{"hashFormat":"sha256","hash":"9288e08e3175fd45219e5277a04126da8dfbff10a5e745efb31a254a93151b3d","contentType":"text/css"},"https://demo.applitools.com/tlc/img/logo.svg":{"hashFormat":"sha256","hash":"d758b55d63537d0e6fb5273b60039272267b820c2e4f4d019cf98f2b3e6048c9","contentType":"image/svg+xml"},"https://demo.applitools.com/tlc/img/logo_black.svg":{"hashFormat":"sha256","hash":"d758b55d63537d0e6fb5273b60039272267b820c2e4f4d019cf98f2b3e6048c9","contentType":"image/svg+xml"},"https://demo.applitools.com/tlc/img/products/shoes/1.jpg":{"hashFormat":"sha256","hash":"8c64a20f2769998f336eae1372a13a763bfca6e7d8333186865045377711f380","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/3.jpg":{"hashFormat":"sha256","hash":"ad35f266c9382d7ee598db037096bf2452c1d541d90b4964a44d4270e930e8a0","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/4.jpg":{"hashFormat":"sha256","hash":"3045f373091298d8b43016a4183fd21249ac4272b960ab4ef6395af4c458b8a2","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/5.jpg":{"hashFormat":"sha256","hash":"a81e78125d54ddab833b06037a4b8eb707c787a84eda1fff7f21c021b32bd200","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/6.jpg":{"hashFormat":"sha256","hash":"185c3792421e79018b26799f881c2918863a04fb760e26b9b34d911abe5101c9","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/7.jpg":{"hashFormat":"sha256","hash":"9558656579500bd91cc953a49b7f10461d5e6af75b8463d1cd28f077e70f97aa","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/8.jpg":{"hashFormat":"sha256","hash":"e860bdcd58a890c4a8654a591caf7babebf568a7a947a35412dde15b1dccb7ce","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/2.jpg":{"hashFormat":"sha256","hash":"2c686af3381f51e13140d0fb84bced5417426c667611c64303496bc40ffdea95","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/9.jpg":{"hashFormat":"sha256","hash":"202c1682b047d2e54959cd02457273d2ed8725087b69d6eb3f453f717c40710a","contentType":"image/jpeg"},"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap":{"hashFormat":"sha256","hash":"0efcaa6d394bcea9a4196d4b7d93a0958a4477c9a91d9dcded4f5c003dae74ee","contentType":"text/css; charset=utf-8"},"https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc9.ttf":{"hashFormat":"sha256","hash":"b4c96f55c265e0a80be4243a16f7e88b9a67c85b71b4e2aa8cea4e1aa989b0d1","contentType":"font/ttf"},"https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf":{"hashFormat":"sha256","hash":"0b1d7f87f3ca4c8b4bd749b02b6ad71c930b7e306c752a2e2293d7b250b02e27","contentType":"font/ttf"},"https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc9.ttf":{"hashFormat":"sha256","hash":"899feb1ef8bdf5717f945468ed29df0f8b2fa5762aef19f040239a649c2d7004","contentType":"font/ttf"},"https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc9.ttf":{"hashFormat":"sha256","hash":"a637d3ff767789f9b113bbfa208bdb6a76efed7c4c111da2a130f6a38a51d353","contentType":"font/ttf"},"https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc9.ttf":{"hashFormat":"sha256","hash":"719df7954428f52779f3fa18641c19fc854b39394193d87eea5a61795dec8dbe","contentType":"font/ttf"}},"agentId":"eyes-testcafe/1.11.1","browser":{"name":"chrome"},"renderInfo":{"width":1200,"height":800,"sizeMode":"full-page"},"sendDom":true} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:49Z Eyes: [VERBOSE] {} (): axios request interceptor - render [2--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:50Z Eyes: [LOG    ] {} Eyes.open(): [open] called by user
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:51Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - render [2--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:51Z Eyes: [VERBOSE] {} ServerConnector.render(): ServerConnector.render - post succeeded [RunningRender { {"renderId":"5a742be3-bb1d-4d58-b08f-b2c5bcae7424","renderStatus":"need-more-resources","needMoreResources":["https://demo.applitools.com/tlc/css/tlcHackathonMasterV1.css"],"needMoreDom":true} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:51Z Eyes: [VERBOSE] {} ServerConnector.renderPutResource(): ServerConnector.putResource called with resource#ed296b06a0a5c6172d59ba8acfe8c773ec3f02f6cb2073e57dc29f0b75688f35 for render: RunningRender { {"renderId":"5a742be3-bb1d-4d58-b08f-b2c5bcae7424","renderStatus":"need-more-resources","needMoreResources":["https://demo.applitools.com/tlc/css/tlcHackathonMasterV1.css"],"needMoreDom":true} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:51Z Eyes: [VERBOSE] {} ServerConnector.renderPutResource(): ServerConnector.putResource called with resource#e66eacabca828e51666294abe4d7b2bec97706e5bb3dfd399da627dd1c70f144 for render: RunningRender { {"renderId":"5a742be3-bb1d-4d58-b08f-b2c5bcae7424","renderStatus":"need-more-resources","needMoreResources":["https://demo.applitools.com/tlc/css/tlcHackathonMasterV1.css"],"needMoreDom":true} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:51Z Eyes: [VERBOSE] {} (): axios request interceptor - renderPutResource [3--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/resources/sha256/ed296b06a0a5c6172d59ba8acfe8c773ec3f02f6cb2073e57dc29f0b75688f35 with params {"render-id":"5a742be3-bb1d-4d58-b08f-b2c5bcae7424"} and body length 108199
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:51Z Eyes: [VERBOSE] {} (): axios request interceptor - renderPutResource [4--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/resources/sha256/e66eacabca828e51666294abe4d7b2bec97706e5bb3dfd399da627dd1c70f144 with params {"render-id":"5a742be3-bb1d-4d58-b08f-b2c5bcae7424"} and body length 145962
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:51Z Eyes: [LOG    ] {} (): got user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:51Z Eyes: [LOG    ] {} Eyes._openAndInitTest(): [_openAndInitTest] opening with {"agentId":"eyes-testcafe/1.11.1","failTestcafeOnDiff":true,"concurrency":1,"apiKey":"L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110","browser":[{"width":1200,"height":800,"name":"chrome"}],"batchName":"Holiday Shopping","showLogs":true,"appName":"AppliFashion","testName":"Test 2","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:51Z Eyes: [VERBOSE] {} Object.openEyes(): openEyes: testName=Test 2, browser= [{"width":1200,"height":800,"name":"chrome"}]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:51Z Eyes: [LOG    ] {} EyesWrapper.setDeviceInfo(): Device Info: Desktop
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:51Z Eyes: [VERBOSE] {} EyesWrapper.setBatch(): setBatch(BatchInfo { {"id":"af742a63-b853-4e25-b88f-5b903af55f12","name":"Holiday Shopping","startedAt":"2020-11-30T14:05:51.736Z","notifyOnCompletion":false} })
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:51Z Eyes: [VERBOSE] {} Object.openEyes(): openEyes: opening wrappers
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:51Z Eyes: [LOG    ] {} Eyes.checkWindow(): [checkWindow] called by user
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:51Z Eyes: [LOG    ] {} Eyes._processPageClientFunction(): [Test2] fetching ClientFunction result and its size
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:54Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderPutResource [4--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/resources/sha256/e66eacabca828e51666294abe4d7b2bec97706e5bb3dfd399da627dd1c70f144
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:54Z Eyes: [VERBOSE] {} ServerConnector.renderPutResource(): ServerConnector.putResource - request succeeded. Response: {"hash":"e66eacabca828e51666294abe4d7b2bec97706e5bb3dfd399da627dd1c70f144"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:54Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderPutResource [3--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/resources/sha256/ed296b06a0a5c6172d59ba8acfe8c773ec3f02f6cb2073e57dc29f0b75688f35
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:54Z Eyes: [VERBOSE] {} ServerConnector.renderPutResource(): ServerConnector.putResource - request succeeded. Response: {"hash":"ed296b06a0a5c6172d59ba8acfe8c773ec3f02f6cb2073e57dc29f0b75688f35"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:54Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/css/bootstrap.custom.min.css
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:54Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.eot?
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:54Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.woff
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:54Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.ttf
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:54Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.svg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.eot?
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.woff?-fvbane
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.ttf?-fvbane
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.svg?-fvbane
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.eot?33109840
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.woff2?33109840
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.woff?33109840
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.ttf?33109840
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.svg?33109840
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/grid/img/bg_cat_shoes.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/countdown_bg.svg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/css/tlcHackathonMasterV1.css
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/css/custom.css
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/logo.svg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/logo_black.svg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/products/shoes/1.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/products/shoes/3.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/products/shoes/4.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/products/shoes/5.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/products/shoes/6.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/products/shoes/7.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/products/shoes/8.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/products/shoes/2.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/products/shoes/9.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc9.ttf
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc9.ttf
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc9.ttf
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc9.ttf
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} ServerConnector.render(): ServerConnector.render called with RenderRequest { {"webhook":"https://eyespublicwusi0.blob.core.windows.net/a162212-se/__random__?sv=2017-04-17&sr=c&sig=Tqjc3VnOW36kMULLlYg71v8kABnhMeulhvmrAC61TAg%3D&se=2020-12-01T14%3A05%3A42Z&sp=w&accessKey=L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110","stitchingService":"https://eyesapi.applitools.com/api/images/stitching?accessKey=L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110","url":"https://demo.applitools.com/tlcHackathonMasterV1.html","dom":{"hashFormat":"sha256","hash":"ed296b06a0a5c6172d59ba8acfe8c773ec3f02f6cb2073e57dc29f0b75688f35","contentType":"x-applitools-html/cdt"},"resources":{"https://demo.applitools.com/tlc/css/bootstrap.custom.min.css":{"hashFormat":"sha256","hash":"21411ceabbedf2250b79cfae182e1c82bf1aae3a02f980da982b9419239fbb0c","contentType":"text/css"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.eot?":{"hashFormat":"sha256","hash":"8b9a3a2fc0bc6cb0173ac0d752965169a92a335cd99e38057f37f4c6fe05e8b4","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.woff":{"hashFormat":"sha256","hash":"ce7c87faefc2d24a152306ed78bfbe2027f95f7c3c1cd019c993d6fdad53334f","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.ttf":{"hashFormat":"sha256","hash":"808235fba4a63ed01c7206c046c2da276e24c8805bcf95598a8725cc736ce19a","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.svg":{"hashFormat":"sha256","hash":"339ea77828962d4facfd590e0aeecfb8f7b3de5b2c4ca6a4e235e173a9aec296","contentType":"image/svg+xml"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.eot?":{"hashFormat":"sha256","hash":"dff415daec911b65dca5be02071a1825b75508ff158de5b8d85976957db931cb","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.woff?-fvbane":{"hashFormat":"sha256","hash":"0db5c5a1475eb7a3e5028983ea1e642d1b2c00faff6a250a37502b0f3832a4a7","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.ttf?-fvbane":{"hashFormat":"sha256","hash":"350663a4665e00072c68a87ad3fa0be47b8a91424127f5f3e09f664197295f01","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.svg?-fvbane":{"hashFormat":"sha256","hash":"f7af2e096c85c2ed6f68bb086f792c67f2a6041cbb814fc2796912b2eef4fe76","contentType":"image/svg+xml"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.eot?33109840":{"hashFormat":"sha256","hash":"1817cd3555cee3184e2a125d58c0d85aedc52902aee5ac559d35fa896a0e4273","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.woff2?33109840":{"hashFormat":"sha256","hash":"9f70725d37935ff1f18297ef28ccebc6ee6efc891e074468c22aec350953fc9d","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.woff?33109840":{"hashFormat":"sha256","hash":"c704e96d8e1c270dfa30af3925544b898ae9e4e6acd2fa4e9d54690e19122c26","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.ttf?33109840":{"hashFormat":"sha256","hash":"132ae2935f299decf2a5ef7caefaff2f28a4034e43e61d835f7fb3e51d10d7b3","contentType":"application/octet-stream"},"https://demo.applitools.com/v92grvInn*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.svg?33109840":{"hashFormat":"sha256","hash":"c39f7a8f2e1680283c220a1a55d64adc99bf0bee369554ce110b1f0437a66744","contentType":"image/svg+xml"},"https://demo.applitools.com/grid/img/bg_cat_shoes.jpg":{"hashFormat":"sha256","hash":"25dbaeae4f10f863cf7700e7acdf40b1f4edebf6f56fa66322b2928f10298a72","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/countdown_bg.svg":{"hashFormat":"sha256","hash":"2e025cc2038b1fc55f3f91b65d9525b126ad36851851d4789e22accba937f55b","contentType":"image/svg+xml"},"https://demo.applitools.com/tlc/css/tlcHackathonMasterV1.css":{"hashFormat":"sha256","hash":"e66eacabca828e51666294abe4d7b2bec97706e5bb3dfd399da627dd1c70f144","contentType":"text/css"},"https://demo.applitools.com/tlc/css/custom.css":{"hashFormat":"sha256","hash":"9288e08e3175fd45219e5277a04126da8dfbff10a5e745efb31a254a93151b3d","contentType":"text/css"},"https://demo.applitools.com/tlc/img/logo.svg":{"hashFormat":"sha256","hash":"d758b55d63537d0e6fb5273b60039272267b820c2e4f4d019cf98f2b3e6048c9","contentType":"image/svg+xml"},"https://demo.applitools.com/tlc/img/logo_black.svg":{"hashFormat":"sha256","hash":"d758b55d63537d0e6fb5273b60039272267b820c2e4f4d019cf98f2b3e6048c9","contentType":"image/svg+xml"},"https://demo.applitools.com/tlc/img/products/shoes/1.jpg":{"hashFormat":"sha256","hash":"8c64a20f2769998f336eae1372a13a763bfca6e7d8333186865045377711f380","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/3.jpg":{"hashFormat":"sha256","hash":"ad35f266c9382d7ee598db037096bf2452c1d541d90b4964a44d4270e930e8a0","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/4.jpg":{"hashFormat":"sha256","hash":"3045f373091298d8b43016a4183fd21249ac4272b960ab4ef6395af4c458b8a2","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/5.jpg":{"hashFormat":"sha256","hash":"a81e78125d54ddab833b06037a4b8eb707c787a84eda1fff7f21c021b32bd200","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/6.jpg":{"hashFormat":"sha256","hash":"185c3792421e79018b26799f881c2918863a04fb760e26b9b34d911abe5101c9","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/7.jpg":{"hashFormat":"sha256","hash":"9558656579500bd91cc953a49b7f10461d5e6af75b8463d1cd28f077e70f97aa","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/8.jpg":{"hashFormat":"sha256","hash":"e860bdcd58a890c4a8654a591caf7babebf568a7a947a35412dde15b1dccb7ce","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/2.jpg":{"hashFormat":"sha256","hash":"2c686af3381f51e13140d0fb84bced5417426c667611c64303496bc40ffdea95","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/9.jpg":{"hashFormat":"sha256","hash":"202c1682b047d2e54959cd02457273d2ed8725087b69d6eb3f453f717c40710a","contentType":"image/jpeg"},"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap":{"hashFormat":"sha256","hash":"0efcaa6d394bcea9a4196d4b7d93a0958a4477c9a91d9dcded4f5c003dae74ee","contentType":"text/css; charset=utf-8"},"https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc9.ttf":{"hashFormat":"sha256","hash":"b4c96f55c265e0a80be4243a16f7e88b9a67c85b71b4e2aa8cea4e1aa989b0d1","contentType":"font/ttf"},"https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf":{"hashFormat":"sha256","hash":"0b1d7f87f3ca4c8b4bd749b02b6ad71c930b7e306c752a2e2293d7b250b02e27","contentType":"font/ttf"},"https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc9.ttf":{"hashFormat":"sha256","hash":"899feb1ef8bdf5717f945468ed29df0f8b2fa5762aef19f040239a649c2d7004","contentType":"font/ttf"},"https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc9.ttf":{"hashFormat":"sha256","hash":"a637d3ff767789f9b113bbfa208bdb6a76efed7c4c111da2a130f6a38a51d353","contentType":"font/ttf"},"https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc9.ttf":{"hashFormat":"sha256","hash":"719df7954428f52779f3fa18641c19fc854b39394193d87eea5a61795dec8dbe","contentType":"font/ttf"}},"renderId":"5a742be3-bb1d-4d58-b08f-b2c5bcae7424","agentId":"eyes-testcafe/1.11.1","browser":{"name":"chrome"},"renderInfo":{"width":1200,"height":800,"sizeMode":"full-page"},"sendDom":true} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [VERBOSE] {} (): axios request interceptor - render [5--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [LOG    ] {} Eyes._processPageClientFunction(): [Test2] done fetching ClientFunction result and its size
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [LOG    ] {} Eyes._processPageClientFunction(): [Test2] starting to collect ClientFunction result of size 2016358
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:55Z Eyes: [LOG    ] {} Eyes._processPageClientFunction(): [Test2] getting ClientFunction result chunk 1 of 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [LOG    ] {} Eyes._processPageClientFunction(): [Test2] done collecting ClientFunction result of size 2016358
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [LOG    ] {} Eyes._mapProxyUrls(): mapping proxy url http://9.79.244.204:51383/hZuJfhRec*3FvaOe41D/
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [LOG    ] {} Eyes._mapProxyUrls(): mapping 3 css blobs
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [LOG    ] {} Eyes._mapProxyUrls(): mapping 1 style elements
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [LOG    ] {} Eyes._mapProxyUrls(): mapping 2 style attributes
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [LOG    ] {} Eyes._mapProxyUrls(): mapping 29 blob urls
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [LOG    ] {} Eyes._mapProxyUrls(): mapping 29 blob urls for sloppy proxy
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [LOG    ] {} Eyes.checkWindow(): [checkWindow] checking for test 'Test 2' with {"target":"region","selector":{"type":"id","selector":"product_grid"}}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [LOG    ] {} Object.checkWindow(): running checkWindow for test Test 2 step #1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [VERBOSE] {} (): starting checkWindowJob. test=Test 2 stepCount #1 index=0
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [LOG    ] {} Eyes.close(): [close] called by user
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [LOG    ] {} Object.close(): closeEyes() called
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [LOG    ] {} Object.setQueuedRendersCount(): setting queued renders count to 2
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [LOG    ] {} (): starting to render test Test 2
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [VERBOSE] {} ServerConnector.render(): ServerConnector.render called with RenderRequest { {"webhook":"https://eyespublicwusi0.blob.core.windows.net/a162212-se/__random__?sv=2017-04-17&sr=c&sig=Tqjc3VnOW36kMULLlYg71v8kABnhMeulhvmrAC61TAg%3D&se=2020-12-01T14%3A05%3A42Z&sp=w&accessKey=L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110","stitchingService":"https://eyesapi.applitools.com/api/images/stitching?accessKey=L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110","url":"https://demo.applitools.com/tlcHackathonMasterV1.html","dom":{"hashFormat":"sha256","hash":"752df02ad430735cc7780e6bfc70701b94f055ed9e7020182fce5b9b0ad8ff8f","contentType":"x-applitools-html/cdt"},"resources":{"https://demo.applitools.com/tlc/css/bootstrap.custom.min.css":{"hashFormat":"sha256","hash":"21411ceabbedf2250b79cfae182e1c82bf1aae3a02f980da982b9419239fbb0c","contentType":"text/css"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.eot?":{"hashFormat":"sha256","hash":"8b9a3a2fc0bc6cb0173ac0d752965169a92a335cd99e38057f37f4c6fe05e8b4","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.woff":{"hashFormat":"sha256","hash":"ce7c87faefc2d24a152306ed78bfbe2027f95f7c3c1cd019c993d6fdad53334f","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.ttf":{"hashFormat":"sha256","hash":"808235fba4a63ed01c7206c046c2da276e24c8805bcf95598a8725cc736ce19a","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.svg":{"hashFormat":"sha256","hash":"339ea77828962d4facfd590e0aeecfb8f7b3de5b2c4ca6a4e235e173a9aec296","contentType":"image/svg+xml"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.eot?":{"hashFormat":"sha256","hash":"dff415daec911b65dca5be02071a1825b75508ff158de5b8d85976957db931cb","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.woff?-fvbane":{"hashFormat":"sha256","hash":"0db5c5a1475eb7a3e5028983ea1e642d1b2c00faff6a250a37502b0f3832a4a7","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.ttf?-fvbane":{"hashFormat":"sha256","hash":"350663a4665e00072c68a87ad3fa0be47b8a91424127f5f3e09f664197295f01","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.svg?-fvbane":{"hashFormat":"sha256","hash":"f7af2e096c85c2ed6f68bb086f792c67f2a6041cbb814fc2796912b2eef4fe76","contentType":"image/svg+xml"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.eot?33109840":{"hashFormat":"sha256","hash":"1817cd3555cee3184e2a125d58c0d85aedc52902aee5ac559d35fa896a0e4273","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.woff2?33109840":{"hashFormat":"sha256","hash":"9f70725d37935ff1f18297ef28ccebc6ee6efc891e074468c22aec350953fc9d","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.woff?33109840":{"hashFormat":"sha256","hash":"c704e96d8e1c270dfa30af3925544b898ae9e4e6acd2fa4e9d54690e19122c26","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.ttf?33109840":{"hashFormat":"sha256","hash":"132ae2935f299decf2a5ef7caefaff2f28a4034e43e61d835f7fb3e51d10d7b3","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.svg?33109840":{"hashFormat":"sha256","hash":"c39f7a8f2e1680283c220a1a55d64adc99bf0bee369554ce110b1f0437a66744","contentType":"image/svg+xml"},"https://demo.applitools.com/grid/img/bg_cat_shoes.jpg":{"hashFormat":"sha256","hash":"25dbaeae4f10f863cf7700e7acdf40b1f4edebf6f56fa66322b2928f10298a72","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/countdown_bg.svg":{"hashFormat":"sha256","hash":"2e025cc2038b1fc55f3f91b65d9525b126ad36851851d4789e22accba937f55b","contentType":"image/svg+xml"},"https://demo.applitools.com/tlc/css/tlcHackathonMasterV1.css":{"hashFormat":"sha256","hash":"d70a7a911a9ac5d559b036a99ed3c2bfa6ba425ed034880f7177c69dd39b4c0b","contentType":"text/css"},"https://demo.applitools.com/tlc/css/custom.css":{"hashFormat":"sha256","hash":"9288e08e3175fd45219e5277a04126da8dfbff10a5e745efb31a254a93151b3d","contentType":"text/css"},"https://demo.applitools.com/tlc/img/logo.svg":{"hashFormat":"sha256","hash":"d758b55d63537d0e6fb5273b60039272267b820c2e4f4d019cf98f2b3e6048c9","contentType":"image/svg+xml"},"https://demo.applitools.com/tlc/img/logo_black.svg":{"hashFormat":"sha256","hash":"d758b55d63537d0e6fb5273b60039272267b820c2e4f4d019cf98f2b3e6048c9","contentType":"image/svg+xml"},"https://demo.applitools.com/tlc/img/products/shoes/1.jpg":{"hashFormat":"sha256","hash":"8c64a20f2769998f336eae1372a13a763bfca6e7d8333186865045377711f380","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/3.jpg":{"hashFormat":"sha256","hash":"ad35f266c9382d7ee598db037096bf2452c1d541d90b4964a44d4270e930e8a0","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/4.jpg":{"hashFormat":"sha256","hash":"3045f373091298d8b43016a4183fd21249ac4272b960ab4ef6395af4c458b8a2","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/5.jpg":{"hashFormat":"sha256","hash":"a81e78125d54ddab833b06037a4b8eb707c787a84eda1fff7f21c021b32bd200","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/6.jpg":{"hashFormat":"sha256","hash":"185c3792421e79018b26799f881c2918863a04fb760e26b9b34d911abe5101c9","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/7.jpg":{"hashFormat":"sha256","hash":"9558656579500bd91cc953a49b7f10461d5e6af75b8463d1cd28f077e70f97aa","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/8.jpg":{"hashFormat":"sha256","hash":"e860bdcd58a890c4a8654a591caf7babebf568a7a947a35412dde15b1dccb7ce","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/2.jpg":{"hashFormat":"sha256","hash":"2c686af3381f51e13140d0fb84bced5417426c667611c64303496bc40ffdea95","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/9.jpg":{"hashFormat":"sha256","hash":"202c1682b047d2e54959cd02457273d2ed8725087b69d6eb3f453f717c40710a","contentType":"image/jpeg"},"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap":{"hashFormat":"sha256","hash":"0efcaa6d394bcea9a4196d4b7d93a0958a4477c9a91d9dcded4f5c003dae74ee","contentType":"text/css; charset=utf-8"},"https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc9.ttf":{"hashFormat":"sha256","hash":"b4c96f55c265e0a80be4243a16f7e88b9a67c85b71b4e2aa8cea4e1aa989b0d1","contentType":"font/ttf"},"https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf":{"hashFormat":"sha256","hash":"0b1d7f87f3ca4c8b4bd749b02b6ad71c930b7e306c752a2e2293d7b250b02e27","contentType":"font/ttf"},"https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc9.ttf":{"hashFormat":"sha256","hash":"719df7954428f52779f3fa18641c19fc854b39394193d87eea5a61795dec8dbe","contentType":"font/ttf"},"https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc9.ttf":{"hashFormat":"sha256","hash":"a637d3ff767789f9b113bbfa208bdb6a76efed7c4c111da2a130f6a38a51d353","contentType":"font/ttf"},"https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc9.ttf":{"hashFormat":"sha256","hash":"899feb1ef8bdf5717f945468ed29df0f8b2fa5762aef19f040239a649c2d7004","contentType":"font/ttf"}},"agentId":"eyes-testcafe/1.11.1","browser":{"name":"chrome"},"renderInfo":{"width":1200,"height":800,"sizeMode":"selector","selector":{"type":"id","selector":"product_grid"}},"selectorsToFindRegionsFor":[{"type":"id","selector":"product_grid"}],"sendDom":true} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [VERBOSE] {} (): axios request interceptor - render [6--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [LOG    ] {} Eyes.waitForResults(): [waitForResults] called by user
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - render [5--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [VERBOSE] {} ServerConnector.render(): ServerConnector.render - post succeeded [RunningRender { {"renderId":"5a742be3-bb1d-4d58-b08f-b2c5bcae7424","jobId":"9796b28f-1f3d-4378-8cb0-33b1dee22e78","renderStatus":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [LOG    ] {} Object.setQueuedRendersCount(): setting queued renders count to 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [VERBOSE] {} (): render request complete for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424. test=Test 1 stepCount #1 tag=main page target=window fully=true region=undefined selector=undefined browser: {"width":1200,"height":800,"name":"chrome"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] waiting for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 to be rendered
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=false
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (1): 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:56Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [7--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:57Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - render [6--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:57Z Eyes: [VERBOSE] {} ServerConnector.render(): ServerConnector.render - post succeeded [RunningRender { {"renderId":"098bcfab-051f-4783-8d78-f516eebadfc0","renderStatus":"need-more-resources","needMoreResources":["https://demo.applitools.com/tlc/css/tlcHackathonMasterV1.css"],"needMoreDom":true} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:57Z Eyes: [VERBOSE] {} ServerConnector.renderPutResource(): ServerConnector.putResource called with resource#752df02ad430735cc7780e6bfc70701b94f055ed9e7020182fce5b9b0ad8ff8f for render: RunningRender { {"renderId":"098bcfab-051f-4783-8d78-f516eebadfc0","renderStatus":"need-more-resources","needMoreResources":["https://demo.applitools.com/tlc/css/tlcHackathonMasterV1.css"],"needMoreDom":true} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:57Z Eyes: [VERBOSE] {} ServerConnector.renderPutResource(): ServerConnector.putResource called with resource#d70a7a911a9ac5d559b036a99ed3c2bfa6ba425ed034880f7177c69dd39b4c0b for render: RunningRender { {"renderId":"098bcfab-051f-4783-8d78-f516eebadfc0","renderStatus":"need-more-resources","needMoreResources":["https://demo.applitools.com/tlc/css/tlcHackathonMasterV1.css"],"needMoreDom":true} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:57Z Eyes: [VERBOSE] {} (): axios request interceptor - renderPutResource [8--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/resources/sha256/752df02ad430735cc7780e6bfc70701b94f055ed9e7020182fce5b9b0ad8ff8f with params {"render-id":"098bcfab-051f-4783-8d78-f516eebadfc0"} and body length 108199
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:57Z Eyes: [VERBOSE] {} (): axios request interceptor - renderPutResource [9--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/resources/sha256/d70a7a911a9ac5d559b036a99ed3c2bfa6ba425ed034880f7177c69dd39b4c0b with params {"render-id":"098bcfab-051f-4783-8d78-f516eebadfc0"} and body length 145962
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:57Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [7--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:57Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:57Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:57Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:58Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (1): 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:58Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:58Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [10--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:58Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [10--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:58Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderPutResource [8--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/resources/sha256/752df02ad430735cc7780e6bfc70701b94f055ed9e7020182fce5b9b0ad8ff8f
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} ServerConnector.renderPutResource(): ServerConnector.putResource - request succeeded. Response: {"hash":"752df02ad430735cc7780e6bfc70701b94f055ed9e7020182fce5b9b0ad8ff8f"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderPutResource [9--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/resources/sha256/d70a7a911a9ac5d559b036a99ed3c2bfa6ba425ed034880f7177c69dd39b4c0b
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} ServerConnector.renderPutResource(): ServerConnector.putResource - request succeeded. Response: {"hash":"d70a7a911a9ac5d559b036a99ed3c2bfa6ba425ed034880f7177c69dd39b4c0b"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/css/bootstrap.custom.min.css
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.eot?
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.woff
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.ttf
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.svg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.eot?
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.woff?-fvbane
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.ttf?-fvbane
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.svg?-fvbane
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.eot?33109840
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.woff2?33109840
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.woff?33109840
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.ttf?33109840
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.svg?33109840
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/grid/img/bg_cat_shoes.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/countdown_bg.svg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/css/tlcHackathonMasterV1.css
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/css/custom.css
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/logo.svg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/logo_black.svg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/products/shoes/1.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/products/shoes/3.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/products/shoes/4.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/products/shoes/5.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/products/shoes/6.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/products/shoes/7.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/products/shoes/8.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/products/shoes/2.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://demo.applitools.com/tlc/img/products/shoes/9.jpg
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc9.ttf
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc9.ttf
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc9.ttf
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc9.ttf
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} ServerConnector.render(): ServerConnector.render called with RenderRequest { {"webhook":"https://eyespublicwusi0.blob.core.windows.net/a162212-se/__random__?sv=2017-04-17&sr=c&sig=Tqjc3VnOW36kMULLlYg71v8kABnhMeulhvmrAC61TAg%3D&se=2020-12-01T14%3A05%3A42Z&sp=w&accessKey=L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110","stitchingService":"https://eyesapi.applitools.com/api/images/stitching?accessKey=L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110","url":"https://demo.applitools.com/tlcHackathonMasterV1.html","dom":{"hashFormat":"sha256","hash":"752df02ad430735cc7780e6bfc70701b94f055ed9e7020182fce5b9b0ad8ff8f","contentType":"x-applitools-html/cdt"},"resources":{"https://demo.applitools.com/tlc/css/bootstrap.custom.min.css":{"hashFormat":"sha256","hash":"21411ceabbedf2250b79cfae182e1c82bf1aae3a02f980da982b9419239fbb0c","contentType":"text/css"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.eot?":{"hashFormat":"sha256","hash":"8b9a3a2fc0bc6cb0173ac0d752965169a92a335cd99e38057f37f4c6fe05e8b4","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.woff":{"hashFormat":"sha256","hash":"ce7c87faefc2d24a152306ed78bfbe2027f95f7c3c1cd019c993d6fdad53334f","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.ttf":{"hashFormat":"sha256","hash":"808235fba4a63ed01c7206c046c2da276e24c8805bcf95598a8725cc736ce19a","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/header_icons.svg":{"hashFormat":"sha256","hash":"339ea77828962d4facfd590e0aeecfb8f7b3de5b2c4ca6a4e235e173a9aec296","contentType":"image/svg+xml"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.eot?":{"hashFormat":"sha256","hash":"dff415daec911b65dca5be02071a1825b75508ff158de5b8d85976957db931cb","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.woff?-fvbane":{"hashFormat":"sha256","hash":"0db5c5a1475eb7a3e5028983ea1e642d1b2c00faff6a250a37502b0f3832a4a7","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.ttf?-fvbane":{"hashFormat":"sha256","hash":"350663a4665e00072c68a87ad3fa0be47b8a91424127f5f3e09f664197295f01","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/themify.svg?-fvbane":{"hashFormat":"sha256","hash":"f7af2e096c85c2ed6f68bb086f792c67f2a6041cbb814fc2796912b2eef4fe76","contentType":"image/svg+xml"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.eot?33109840":{"hashFormat":"sha256","hash":"1817cd3555cee3184e2a125d58c0d85aedc52902aee5ac559d35fa896a0e4273","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.woff2?33109840":{"hashFormat":"sha256","hash":"9f70725d37935ff1f18297ef28ccebc6ee6efc891e074468c22aec350953fc9d","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.woff?33109840":{"hashFormat":"sha256","hash":"c704e96d8e1c270dfa30af3925544b898ae9e4e6acd2fa4e9d54690e19122c26","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.ttf?33109840":{"hashFormat":"sha256","hash":"132ae2935f299decf2a5ef7caefaff2f28a4034e43e61d835f7fb3e51d10d7b3","contentType":"application/octet-stream"},"https://demo.applitools.com/hZuJfhRec*3FvaOe41D/https://demo.applitools.com/tlc/css/fonts/fontello.svg?33109840":{"hashFormat":"sha256","hash":"c39f7a8f2e1680283c220a1a55d64adc99bf0bee369554ce110b1f0437a66744","contentType":"image/svg+xml"},"https://demo.applitools.com/grid/img/bg_cat_shoes.jpg":{"hashFormat":"sha256","hash":"25dbaeae4f10f863cf7700e7acdf40b1f4edebf6f56fa66322b2928f10298a72","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/countdown_bg.svg":{"hashFormat":"sha256","hash":"2e025cc2038b1fc55f3f91b65d9525b126ad36851851d4789e22accba937f55b","contentType":"image/svg+xml"},"https://demo.applitools.com/tlc/css/tlcHackathonMasterV1.css":{"hashFormat":"sha256","hash":"d70a7a911a9ac5d559b036a99ed3c2bfa6ba425ed034880f7177c69dd39b4c0b","contentType":"text/css"},"https://demo.applitools.com/tlc/css/custom.css":{"hashFormat":"sha256","hash":"9288e08e3175fd45219e5277a04126da8dfbff10a5e745efb31a254a93151b3d","contentType":"text/css"},"https://demo.applitools.com/tlc/img/logo.svg":{"hashFormat":"sha256","hash":"d758b55d63537d0e6fb5273b60039272267b820c2e4f4d019cf98f2b3e6048c9","contentType":"image/svg+xml"},"https://demo.applitools.com/tlc/img/logo_black.svg":{"hashFormat":"sha256","hash":"d758b55d63537d0e6fb5273b60039272267b820c2e4f4d019cf98f2b3e6048c9","contentType":"image/svg+xml"},"https://demo.applitools.com/tlc/img/products/shoes/1.jpg":{"hashFormat":"sha256","hash":"8c64a20f2769998f336eae1372a13a763bfca6e7d8333186865045377711f380","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/3.jpg":{"hashFormat":"sha256","hash":"ad35f266c9382d7ee598db037096bf2452c1d541d90b4964a44d4270e930e8a0","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/4.jpg":{"hashFormat":"sha256","hash":"3045f373091298d8b43016a4183fd21249ac4272b960ab4ef6395af4c458b8a2","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/5.jpg":{"hashFormat":"sha256","hash":"a81e78125d54ddab833b06037a4b8eb707c787a84eda1fff7f21c021b32bd200","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/6.jpg":{"hashFormat":"sha256","hash":"185c3792421e79018b26799f881c2918863a04fb760e26b9b34d911abe5101c9","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/7.jpg":{"hashFormat":"sha256","hash":"9558656579500bd91cc953a49b7f10461d5e6af75b8463d1cd28f077e70f97aa","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/8.jpg":{"hashFormat":"sha256","hash":"e860bdcd58a890c4a8654a591caf7babebf568a7a947a35412dde15b1dccb7ce","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/2.jpg":{"hashFormat":"sha256","hash":"2c686af3381f51e13140d0fb84bced5417426c667611c64303496bc40ffdea95","contentType":"image/jpeg"},"https://demo.applitools.com/tlc/img/products/shoes/9.jpg":{"hashFormat":"sha256","hash":"202c1682b047d2e54959cd02457273d2ed8725087b69d6eb3f453f717c40710a","contentType":"image/jpeg"},"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap":{"hashFormat":"sha256","hash":"0efcaa6d394bcea9a4196d4b7d93a0958a4477c9a91d9dcded4f5c003dae74ee","contentType":"text/css; charset=utf-8"},"https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc9.ttf":{"hashFormat":"sha256","hash":"b4c96f55c265e0a80be4243a16f7e88b9a67c85b71b4e2aa8cea4e1aa989b0d1","contentType":"font/ttf"},"https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf":{"hashFormat":"sha256","hash":"0b1d7f87f3ca4c8b4bd749b02b6ad71c930b7e306c752a2e2293d7b250b02e27","contentType":"font/ttf"},"https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc9.ttf":{"hashFormat":"sha256","hash":"719df7954428f52779f3fa18641c19fc854b39394193d87eea5a61795dec8dbe","contentType":"font/ttf"},"https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc9.ttf":{"hashFormat":"sha256","hash":"a637d3ff767789f9b113bbfa208bdb6a76efed7c4c111da2a130f6a38a51d353","contentType":"font/ttf"},"https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc9.ttf":{"hashFormat":"sha256","hash":"899feb1ef8bdf5717f945468ed29df0f8b2fa5762aef19f040239a649c2d7004","contentType":"font/ttf"}},"renderId":"098bcfab-051f-4783-8d78-f516eebadfc0","agentId":"eyes-testcafe/1.11.1","browser":{"name":"chrome"},"renderInfo":{"width":1200,"height":800,"sizeMode":"selector","selector":{"type":"id","selector":"product_grid"}},"selectorsToFindRegionsFor":[{"type":"id","selector":"product_grid"}],"sendDom":true} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): axios request interceptor - render [11--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (1): 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:05:59Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [12--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:00Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [12--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:00Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:00Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:00Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:01Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (1): 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:01Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:01Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [13--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:01Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - render [11--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:01Z Eyes: [VERBOSE] {} ServerConnector.render(): ServerConnector.render - post succeeded [RunningRender { {"renderId":"098bcfab-051f-4783-8d78-f516eebadfc0","jobId":"392fbfe4-48eb-4fb1-924f-a34843d4e932","renderStatus":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:01Z Eyes: [LOG    ] {} Object.setQueuedRendersCount(): setting queued renders count to 0
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:01Z Eyes: [VERBOSE] {} (): render request complete for 098bcfab-051f-4783-8d78-f516eebadfc0. test=Test 2 stepCount #1 tag=undefined target=region fully=true region=undefined selector={"type":"id","selector":"product_grid"} browser: {"width":1200,"height":800,"name":"chrome"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:01Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] waiting for 098bcfab-051f-4783-8d78-f516eebadfc0 to be rendered
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:01Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 098bcfab-051f-4783-8d78-f516eebadfc0 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:02Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [13--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:02Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:02Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:02Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:02Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (2): 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:02Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:02Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [14--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 2
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:03Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [14--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:03Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} },RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:03Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 098bcfab-051f-4783-8d78-f516eebadfc0: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:03Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:03Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 098bcfab-051f-4783-8d78-f516eebadfc0 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:03Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:03Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (2): 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:03Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:03Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [15--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 2
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:04Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [15--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:04Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} },RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:04Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 098bcfab-051f-4783-8d78-f516eebadfc0: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:04Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:04Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 098bcfab-051f-4783-8d78-f516eebadfc0 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:04Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:05Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (2): 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:05Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:05Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [16--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 2
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:05Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [16--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:05Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} },RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:05Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 098bcfab-051f-4783-8d78-f516eebadfc0: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:05Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:05Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 098bcfab-051f-4783-8d78-f516eebadfc0 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:05Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:06Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (2): 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:06Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:06Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [17--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 2
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:07Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [17--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:07Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} },RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:07Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 098bcfab-051f-4783-8d78-f516eebadfc0: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:07Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:07Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 098bcfab-051f-4783-8d78-f516eebadfc0 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:07Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:07Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (2): 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:07Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:07Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [18--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 2
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:08Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [18--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:08Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} },RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:08Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 098bcfab-051f-4783-8d78-f516eebadfc0: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:08Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:08Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 098bcfab-051f-4783-8d78-f516eebadfc0 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:08Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:08Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (2): 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:08Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:08Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [19--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 2
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:09Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [19--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:09Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} },RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:09Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 098bcfab-051f-4783-8d78-f516eebadfc0: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:09Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:09Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 098bcfab-051f-4783-8d78-f516eebadfc0 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:09Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:09Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (2): 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:09Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:09Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [20--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 2
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:10Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [20--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:10Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 098bcfab-051f-4783-8d78-f516eebadfc0,5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"error","error":"Could not find target element \"product_grid\""} },RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:10Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 098bcfab-051f-4783-8d78-f516eebadfc0: RenderStatusResults { {"status":"error","error":"Could not find target element \"product_grid\""} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:10Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:10Z Eyes: [LOG    ] {} (): got render status error aborting tests
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:10Z Eyes: [VERBOSE] {} (): axios request interceptor - getUserAgents [21--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/user-agents with params {}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:10Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:11Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (1): 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:11Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:11Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [22--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:11Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - getUserAgents [21--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/user-agents
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:11Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [22--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:11Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:11Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:11Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:12Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (1): 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:12Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:12Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [23--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:12Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [23--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:12Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:12Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:12Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:13Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (1): 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:13Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:13Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [24--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:14Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [24--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:14Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:14Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:14Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:14Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (1): 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:14Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:14Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [25--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:15Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [25--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:15Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:15Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:15Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:15Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (1): 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:15Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:15Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [26--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:16Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [26--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:16Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:16Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:16Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:16Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (1): 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:16Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:16Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [27--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:17Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [27--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:17Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:17Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:17Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:18Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (1): 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:18Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:18Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [28--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:18Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [28--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:18Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:18Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:18Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:19Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (1): 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:19Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:19Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [29--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:20Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [29--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:20Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:20Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:20Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:20Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (1): 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:20Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:20Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [30--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:21Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [30--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:21Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:21Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:21Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:21Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (1): 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:21Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:21Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [31--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:22Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [31--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:22Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:22Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:22Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:22Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (1): 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:22Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:22Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [32--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:23Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [32--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:23Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendering"} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:23Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendering"} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:23Z Eyes: [VERBOSE] {} (): [getRenderStatus] adding job for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 isRunning=true
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:24Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (1): 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:24Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus called for render: 5a742be3-bb1d-4d58-b08f-b2c5bcae7424
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:24Z Eyes: [VERBOSE] {} (): axios request interceptor - renderStatus [33--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://render-wus.applitools.com/render-status with params {} and body length 1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:24Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - renderStatus [33--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://render-wus.applitools.com/render-status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:24Z Eyes: [VERBOSE] {} ServerConnector.renderStatusById(): ServerConnector.renderStatus - get succeeded for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 - [RenderStatusResults { {"status":"rendered","imageLocation":"https://eyesapi.applitools.com/api/images/stitching/se%7e071c13b4-2d40-4fda-b266-6878036ed76f?accessKey=L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110","domLocation":"https://eyespublicwusi0.blob.core.windows.net/a162212-se/828d2e8d-6819-425b-aef4-a075fa5a49ba?sv=2017-04-17&sr=c&sig=Tqjc3VnOW36kMULLlYg71v8kABnhMeulhvmrAC61TAg%3D&se=2020-12-01T14%3A05%3A42Z&sp=w&accessKey=L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110","os":"linux","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/87.0.4280.66 Safari/537.36","deviceSize":{"width":1200,"height":800}} }]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:24Z Eyes: [VERBOSE] {} (): [waitForRenderedStatus] render status result for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424: RenderStatusResults { {"status":"rendered","imageLocation":"https://eyesapi.applitools.com/api/images/stitching/se%7e071c13b4-2d40-4fda-b266-6878036ed76f?accessKey=L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110","domLocation":"https://eyespublicwusi0.blob.core.windows.net/a162212-se/828d2e8d-6819-425b-aef4-a075fa5a49ba?sv=2017-04-17&sr=c&sig=Tqjc3VnOW36kMULLlYg71v8kABnhMeulhvmrAC61TAg%3D&se=2020-12-01T14%3A05%3A42Z&sp=w&accessKey=L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110","os":"linux","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/87.0.4280.66 Safari/537.36","deviceSize":{"width":1200,"height":800}} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:24Z Eyes: [VERBOSE] {} (): screenshot available for 5a742be3-bb1d-4d58-b08f-b2c5bcae7424 at https://eyesapi.applitools.com/api/images/stitching/se%7e071c13b4-2d40-4fda-b266-6878036ed76f?accessKey=L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:24Z Eyes: [VERBOSE] {} (): checkWindow waiting for prev job. test=Test 1, stepCount #1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:24Z Eyes: [VERBOSE] {} (): checkWindow waiting for openEyes. test=Test 1, stepCount #1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:24Z Eyes: [VERBOSE] {} (): running wrapper.checkWindow for test Test 1 stepCount #1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:25Z Eyes: [VERBOSE] {} Function.matchWindow(): CheckWindowBase(NullRegionProvider, 'main page', false, 0)
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:25Z Eyes: [VERBOSE] {} EyesWrapper._ensureRunningSession(): No running session, calling start session...
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:25Z Eyes: [VERBOSE] {} EyesWrapper.startSession(): startSession()
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:25Z Eyes: [VERBOSE] {} EyesWrapper.startSession(): Batch is BatchInfo { {"id":"af742a63-b853-4e25-b88f-5b903af55f12","name":"Holiday Shopping","startedAt":"2020-11-30T14:05:41.193Z","notifyOnCompletion":false} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:25Z Eyes: [VERBOSE] {} EyesWrapper.startSession(): Application environment is [OS = ? HostingApp = ? DisplaySize = 1200x800]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:25Z Eyes: [VERBOSE] {} EyesWrapper.startSession(): Starting server session...
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:25Z Eyes: [VERBOSE] {} ServerConnector.startSession(): ServerConnector.startSession called with: SessionStartInfo { {"agentId":"eyes-testcafe/1.11.1","sessionType":"SEQUENTIAL","appIdOrName":"AppliFashion","scenarioIdOrName":"Test 1","batchInfo":{"id":"af742a63-b853-4e25-b88f-5b903af55f12","name":"Holiday Shopping","startedAt":"2020-11-30T14:05:41.193Z","notifyOnCompletion":false},"environment":{"displaySize":{"width":1200,"height":800},"deviceInfo":"Desktop","inferred":"useragent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/87.0.4280.66 Safari/537.36"},"defaultMatchSettings":{"matchLevel":"Strict","ignoreCaret":true,"useDom":false,"enablePatterns":false,"ignoreDisplacements":false,"ignore":[],"layout":[],"strict":[],"content":[],"accessibility":[],"floating":[]},"compareWithParentBranch":false,"ignoreBaseline":false,"render":false,"properties":[]} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:25Z Eyes: [VERBOSE] {} (): axios request interceptor - startSession [34--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://eyesapi.applitools.com/api/sessions/running with params {"apiKey":"L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:25Z Eyes: [VERBOSE] {} (): [getRenderStatus] render status job (0): 
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:26Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - startSession [34--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result Accepted, status code 202, url https://eyesapi.applitools.com/api/sessions/running
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:26Z Eyes: [VERBOSE] {} (): axios request interceptor - startSession [35--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://eyesapi.applitools.com/api/tasks/00637423419861647998%7e2/status with params {"apiKey":"L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:26Z Eyes: [VERBOSE] {} global.<init>(): axios request interceptor - startSession request delayed for 500 ms.
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:28Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - startSession [35--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result Created, status code 201, url https://eyesapi.applitools.com/api/tasks/00637423419861647998%7e2/status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:28Z Eyes: [VERBOSE] {} (): axios request interceptor - startSession [36--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://eyesapi.applitools.com/api/tasks/00637423419861647998%7e2/result with params {"apiKey":"L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:29Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - startSession [36--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://eyesapi.applitools.com/api/tasks/00637423419861647998%7e2/result
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:29Z Eyes: [VERBOSE] {} ServerConnector.startSession(): ServerConnector.startSession - post succeeded RunningSession { {"id":"T3YnGOLUhEWCs2WFdfUDig~~$1e39f5f8f-1ea2-4041-b8df-abe240c65ee4$24","sessionId":"00000251795555613600","batchId":"00000251795555613725","baselineId":"bf541603-3906-43c6-85d5-f3062b855fc6.96b7ff95-0ac9-4a39-abac-fe0a2b559be5.zLww87gvA1RoCkmZvJKrG464suVXvwLTN5QMTP2cxnA_.","url":"https://eyes.applitools.com/app/batches/00000251795555613725/00000251795555613600?accountId=T3YnGOLUhEWCs2WFdfUDig~~","isNew":false} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:29Z Eyes: [VERBOSE] {} EyesWrapper.startSession(): Server session ID is T3YnGOLUhEWCs2WFdfUDig~~$1e39f5f8f-1ea2-4041-b8df-abe240c65ee4$24
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:29Z Eyes: [LOG    ] {} EyesWrapper.startSession(): --- Test started - 'Test 1' of 'AppliFashion' "[OS = ? HostingApp = ? DisplaySize = 1200x800]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:29Z Eyes: [VERBOSE] {00000251795555613600} EyesWrapper._ensureRunningSession(): Done!
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:29Z Eyes: [VERBOSE] {00000251795555613600} Function.matchWindow(): Calling match window...
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:29Z Eyes: [VERBOSE] {00000251795555613600} MatchWindowTask.matchWindow(): retryTimeout = 0
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:29Z Eyes: [VERBOSE] {00000251795555613600} EyesWrapper._getAppOutputWithScreenshot(): getting screenshot...
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:29Z Eyes: [VERBOSE] {00000251795555613600} EyesWrapper._getAppOutputWithScreenshot(): Done getting screenshot!
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:29Z Eyes: [VERBOSE] {00000251795555613600} EyesWrapper._getAppOutputWithScreenshot(): getting screenshot url...
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:29Z Eyes: [VERBOSE] {00000251795555613600} EyesWrapper._getAppOutputWithScreenshot(): Done getting screenshotUrl!
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:29Z Eyes: [VERBOSE] {00000251795555613600} EyesWrapper._getAppOutputWithScreenshot(): Getting title, domUrl, imageLocation...
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:29Z Eyes: [VERBOSE] {00000251795555613600} EyesWrapper._getAppOutputWithScreenshot(): Done getting title, domUrl, imageLocation!
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:29Z Eyes: [VERBOSE] {00000251795555613600} EyesWrapper._getAppOutputWithScreenshot(): Done!
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:29Z Eyes: [VERBOSE] {00000251795555613600} ServerConnector.matchWindow(): ServerConnector.matchWindow called with MatchWindowData { {"userInputs":[],"appOutput":{"title":"some title","screenshotUrl":"https://eyesapi.applitools.com/api/images/stitching/se%7e071c13b4-2d40-4fda-b266-6878036ed76f?accessKey=L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110","domUrl":"https://eyespublicwusi0.blob.core.windows.net/a162212-se/828d2e8d-6819-425b-aef4-a075fa5a49ba?sv=2017-04-17&sr=c&sig=Tqjc3VnOW36kMULLlYg71v8kABnhMeulhvmrAC61TAg%3D&se=2020-12-01T14%3A05%3A42Z&sp=w&accessKey=L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110"},"tag":"main page","ignoreMismatch":false,"options":{"name":"main page","renderId":"5a742be3-bb1d-4d58-b08f-b2c5bcae7424","userInputs":[],"ignoreMismatch":false,"ignoreMatch":false,"forceMismatch":false,"forceMatch":false,"imageMatchSettings":{"matchLevel":"Strict","ignoreCaret":true,"useDom":false,"enablePatterns":false,"ignoreDisplacements":false,"exact":null,"ignore":[],"layout":[],"strict":[],"content":[],"accessibility":[],"floating":[]},"source":"https://demo.applitools.com/tlcHackathonMasterV1.html"}} } for session: RunningSession { {"id":"T3YnGOLUhEWCs2WFdfUDig~~$1e39f5f8f-1ea2-4041-b8df-abe240c65ee4$24","sessionId":"00000251795555613600","batchId":"00000251795555613725","baselineId":"bf541603-3906-43c6-85d5-f3062b855fc6.96b7ff95-0ac9-4a39-abac-fe0a2b559be5.zLww87gvA1RoCkmZvJKrG464suVXvwLTN5QMTP2cxnA_.","url":"https://eyes.applitools.com/app/batches/00000251795555613725/00000251795555613600?accountId=T3YnGOLUhEWCs2WFdfUDig~~","isNew":false} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:29Z Eyes: [VERBOSE] {00000251795555613600} (): axios request interceptor - matchWindow [37--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://eyesapi.applitools.com/api/sessions/running/T3YnGOLUhEWCs2WFdfUDig~~$1e39f5f8f-1ea2-4041-b8df-abe240c65ee4$24 with params {"apiKey":"L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:30Z Eyes: [VERBOSE] {00000251795555613600} global.<init>(): axios response interceptor - matchWindow [37--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result Accepted, status code 202, url https://eyesapi.applitools.com/api/sessions/running/T3YnGOLUhEWCs2WFdfUDig~~$1e39f5f8f-1ea2-4041-b8df-abe240c65ee4$24
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:30Z Eyes: [VERBOSE] {00000251795555613600} (): axios request interceptor - matchWindow [38--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://eyesapi.applitools.com/api/tasks/00637423419902865406%7e2/status with params {"apiKey":"L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:30Z Eyes: [VERBOSE] {00000251795555613600} global.<init>(): axios request interceptor - matchWindow request delayed for 500 ms.
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:31Z Eyes: [VERBOSE] {00000251795555613600} global.<init>(): axios response interceptor - matchWindow [38--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result Created, status code 201, url https://eyesapi.applitools.com/api/tasks/00637423419902865406%7e2/status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:31Z Eyes: [VERBOSE] {00000251795555613600} (): axios request interceptor - matchWindow [39--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://eyesapi.applitools.com/api/tasks/00637423419902865406%7e2/result with params {"apiKey":"L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {00000251795555613600} global.<init>(): axios response interceptor - matchWindow [39--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://eyesapi.applitools.com/api/tasks/00637423419902865406%7e2/result
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {00000251795555613600} ServerConnector.matchWindow(): ServerConnector.matchWindow - post succeeded MatchResult { {"asExpected":true} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {00000251795555613600} MatchWindowTask._takeScreenshot(): Completed in 3s 968.0250999999998ms
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {00000251795555613600} EyesWrapper.checkWindowBase(): MatchWindow Done!
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {00000251795555613600} EyesWrapper.checkWindowBase(): Done!
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {} global.<init>(): waitForTestEnd() checkWindow 0 done
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {} global.<init>(): waitForTestEnd() open 0 done
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {00000251795555613600} EyesWrapper.close(): EyesBase.close(false)
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {00000251795555613600} EyesWrapper.close(): Ending server session...
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {00000251795555613600} EyesWrapper.close(): Automatically save test? false
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {00000251795555613600} ServerConnector.stopSession(): ServerConnector.stopSession called with {"isAborted":false,"updateBaseline":false} for session: RunningSession { {"id":"T3YnGOLUhEWCs2WFdfUDig~~$1e39f5f8f-1ea2-4041-b8df-abe240c65ee4$24","sessionId":"00000251795555613600","batchId":"00000251795555613725","baselineId":"bf541603-3906-43c6-85d5-f3062b855fc6.96b7ff95-0ac9-4a39-abac-fe0a2b559be5.zLww87gvA1RoCkmZvJKrG464suVXvwLTN5QMTP2cxnA_.","url":"https://eyes.applitools.com/app/batches/00000251795555613725/00000251795555613600?accountId=T3YnGOLUhEWCs2WFdfUDig~~","isNew":false} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {00000251795555613600} global.<init>(): axios request interceptor - stopSession [40--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://eyesapi.applitools.com/api/sessions/running/T3YnGOLUhEWCs2WFdfUDig~~$1e39f5f8f-1ea2-4041-b8df-abe240c65ee4$24 with params {"aborted":false,"updateBaseline":false,"apiKey":"L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {} EyesWrapper.openBase(): Agent = eyes-testcafe/1.11.1
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {} EyesWrapper.openBase(): openBase('AppliFashion', 'Test 2', 'undefined')
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): Eyes server URL is 'https://eyesapi.applitools.com'
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): Timeout = 'undefined'
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): matchTimeout = '2000'
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): Default match settings = 'ImageMatchSettings { {"matchLevel":"Strict","ignoreCaret":true,"useDom":false,"enablePatterns":false,"ignoreDisplacements":false,"ignore":[],"layout":[],"strict":[],"content":[],"accessibility":[],"floating":[]} }'
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): FailureReports = 'ON_CLOSE'
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {} global.<init>(): waitForTestEnd() checkWindow 0 done
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {} global.<init>(): waitForTestEnd() open 0 done
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [LOG    ] {} (): closeEyes() fatal error found
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {} EyesWrapper._ensureRunningSession(): No running session, calling start session...
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {} EyesWrapper.startSession(): startSession()
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {} EyesWrapper.startSession(): Batch is BatchInfo { {"id":"af742a63-b853-4e25-b88f-5b903af55f12","name":"Holiday Shopping","startedAt":"2020-11-30T14:05:51.736Z","notifyOnCompletion":false} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {} EyesWrapper.startSession(): Application environment is [OS = ? HostingApp = ? DisplaySize = 1200x800]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {} EyesWrapper.startSession(): Starting server session...
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {} ServerConnector.startSession(): ServerConnector.startSession called with: SessionStartInfo { {"agentId":"eyes-testcafe/1.11.1","sessionType":"SEQUENTIAL","appIdOrName":"AppliFashion","scenarioIdOrName":"Test 2","batchInfo":{"id":"af742a63-b853-4e25-b88f-5b903af55f12","name":"Holiday Shopping","startedAt":"2020-11-30T14:05:51.736Z","notifyOnCompletion":false},"environment":{"displaySize":{"width":1200,"height":800},"deviceInfo":"Desktop","inferred":"useragent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/87.0.4280.66 Safari/537.36"},"defaultMatchSettings":{"matchLevel":"Strict","ignoreCaret":true,"useDom":false,"enablePatterns":false,"ignoreDisplacements":false,"ignore":[],"layout":[],"strict":[],"content":[],"accessibility":[],"floating":[]},"compareWithParentBranch":false,"ignoreBaseline":false,"render":false,"properties":[]} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:33Z Eyes: [VERBOSE] {} (): axios request interceptor - startSession [41--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://eyesapi.applitools.com/api/sessions/running with params {"apiKey":"L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:34Z Eyes: [VERBOSE] {00000251795555613600} global.<init>(): axios response interceptor - stopSession [40--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result Accepted, status code 202, url https://eyesapi.applitools.com/api/sessions/running/T3YnGOLUhEWCs2WFdfUDig~~$1e39f5f8f-1ea2-4041-b8df-abe240c65ee4$24
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:34Z Eyes: [VERBOSE] {00000251795555613600} global.<init>(): axios request interceptor - stopSession [42--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://eyesapi.applitools.com/api/tasks/00637423419942261930%7e2/status with params {"apiKey":"L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:34Z Eyes: [VERBOSE] {00000251795555613600} global.<init>(): axios request interceptor - stopSession request delayed for 500 ms.
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:34Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - startSession [41--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result Accepted, status code 202, url https://eyesapi.applitools.com/api/sessions/running
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:34Z Eyes: [VERBOSE] {} (): axios request interceptor - startSession [43--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://eyesapi.applitools.com/api/tasks/00637423419942634575%7e2/status with params {"apiKey":"L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:34Z Eyes: [VERBOSE] {} global.<init>(): axios request interceptor - startSession request delayed for 500 ms.
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:35Z Eyes: [VERBOSE] {00000251795555613600} global.<init>(): axios response interceptor - stopSession [42--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result Created, status code 201, url https://eyesapi.applitools.com/api/tasks/00637423419942261930%7e2/status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:35Z Eyes: [VERBOSE] {00000251795555613600} (): axios request interceptor - stopSession [44--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://eyesapi.applitools.com/api/tasks/00637423419942261930%7e2/result with params {"apiKey":"L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:36Z Eyes: [VERBOSE] {00000251795555613600} global.<init>(): axios response interceptor - stopSession [44--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://eyesapi.applitools.com/api/tasks/00637423419942261930%7e2/result
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:36Z Eyes: [VERBOSE] {00000251795555613600} ServerConnector.stopSession(): ServerConnector.stopSession - post succeeded TestResults of existing test {"id":"00000251795555613600","name":"Test 1","status":"Passed","appName":"AppliFashion","batchName":"Holiday Shopping","batchId":"00000251795555613725","branchName":"default","hostOS":"Linux","hostApp":"Chrome","hostDisplaySize":{"width":1200,"height":800},"startedAt":"2020-11-30T14:06:26.243Z","duration":8,"isNew":false,"isDifferent":false,"isAborted":false,"appUrls":{"batch":"https://eyes.applitools.com/app/test-results/00000251795555613725?accountId=T3YnGOLUhEWCs2WFdfUDig~~","session":"https://eyes.applitools.com/app/test-results/00000251795555613725/00000251795555613600?accountId=T3YnGOLUhEWCs2WFdfUDig~~"},"apiUrls":{"batch":"https://eyesapi.applitools.com/api/sessions/batches/00000251795555613725","session":"https://eyesapi.applitools.com/api/sessions/batches/00000251795555613725/00000251795555613600"},"stepsInfo":[{"name":"main page","isDifferent":false,"hasBaselineImage":true,"hasCurrentImage":true,"appUrls":{"step":"https://eyes.applitools.com/app/test-results/00000251795555613725/00000251795555613600/steps/1?accountId=T3YnGOLUhEWCs2WFdfUDig~~","stepEditor":"https://eyes.applitools.com/app/test-results/00000251795555613725/00000251795555613600/steps/1/edit?accountId=T3YnGOLUhEWCs2WFdfUDig~~"},"apiUrls":{"baselineImage":"https://eyesapi.applitools.com/api/images/se~c742d9a0-c0ff-4ab0-87b0-64d0fda94ac6","currentImage":"https://eyesapi.applitools.com/api/sessions/batches/00000251795555613725/00000251795555613600/steps/1/images/checkpoint","checkpointImage":"https://eyesapi.applitools.com/api/sessions/batches/00000251795555613725/00000251795555613600/steps/1/images/checkpoint","checkpointImageThumbnail":"https://eyesapi.applitools.com/api/sessions/batches/00000251795555613725/00000251795555613600/steps/1/images/checkpoint-thumbnail","diffImage":"https://eyesapi.applitools.com/api/sessions/batches/00000251795555613725/00000251795555613600/steps/1/images/diff"}}],"steps":1,"matches":1,"mismatches":0,"missing":0,"exactMatches":0,"strictMatches":0,"contentMatches":0,"layoutMatches":0,"noneMatches":0}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:36Z Eyes: [VERBOSE] {00000251795555613600} EyesWrapper.close(): Results: TestResults of existing test {"id":"00000251795555613600","name":"Test 1","status":"Passed","appName":"AppliFashion","batchName":"Holiday Shopping","batchId":"00000251795555613725","branchName":"default","hostOS":"Linux","hostApp":"Chrome","hostDisplaySize":{"width":1200,"height":800},"startedAt":"2020-11-30T14:06:26.243Z","duration":8,"isNew":false,"isDifferent":false,"isAborted":false,"appUrls":{"batch":"https://eyes.applitools.com/app/test-results/00000251795555613725?accountId=T3YnGOLUhEWCs2WFdfUDig~~","session":"https://eyes.applitools.com/app/test-results/00000251795555613725/00000251795555613600?accountId=T3YnGOLUhEWCs2WFdfUDig~~"},"apiUrls":{"batch":"https://eyesapi.applitools.com/api/sessions/batches/00000251795555613725","session":"https://eyesapi.applitools.com/api/sessions/batches/00000251795555613725/00000251795555613600"},"stepsInfo":[{"name":"main page","isDifferent":false,"hasBaselineImage":true,"hasCurrentImage":true,"appUrls":{"step":"https://eyes.applitools.com/app/test-results/00000251795555613725/00000251795555613600/steps/1?accountId=T3YnGOLUhEWCs2WFdfUDig~~","stepEditor":"https://eyes.applitools.com/app/test-results/00000251795555613725/00000251795555613600/steps/1/edit?accountId=T3YnGOLUhEWCs2WFdfUDig~~"},"apiUrls":{"baselineImage":"https://eyesapi.applitools.com/api/images/se~c742d9a0-c0ff-4ab0-87b0-64d0fda94ac6","currentImage":"https://eyesapi.applitools.com/api/sessions/batches/00000251795555613725/00000251795555613600/steps/1/images/checkpoint","checkpointImage":"https://eyesapi.applitools.com/api/sessions/batches/00000251795555613725/00000251795555613600/steps/1/images/checkpoint","checkpointImageThumbnail":"https://eyesapi.applitools.com/api/sessions/batches/00000251795555613725/00000251795555613600/steps/1/images/checkpoint-thumbnail","diffImage":"https://eyesapi.applitools.com/api/sessions/batches/00000251795555613725/00000251795555613600/steps/1/images/diff"}}],"steps":1,"matches":1,"mismatches":0,"missing":0,"exactMatches":0,"strictMatches":0,"contentMatches":0,"layoutMatches":0,"noneMatches":0,"url":"https://eyes.applitools.com/app/batches/00000251795555613725/00000251795555613600?accountId=T3YnGOLUhEWCs2WFdfUDig~~"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:36Z Eyes: [LOG    ] {00000251795555613600} EyesWrapper.close(): --- Test passed. See details at https://eyes.applitools.com/app/batches/00000251795555613725/00000251795555613600?accountId=T3YnGOLUhEWCs2WFdfUDig~~
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:36Z Eyes: [LOG    ] {} global.<init>(): closeEyes() done
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:37Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - startSession [43--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result Created, status code 201, url https://eyesapi.applitools.com/api/tasks/00637423419942634575%7e2/status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:37Z Eyes: [VERBOSE] {} (): axios request interceptor - startSession [45--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://eyesapi.applitools.com/api/tasks/00637423419942634575%7e2/result with params {"apiKey":"L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:38Z Eyes: [VERBOSE] {} global.<init>(): axios response interceptor - startSession [45--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result Created, status code 201, url https://eyesapi.applitools.com/api/tasks/00637423419942634575%7e2/result
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:38Z Eyes: [VERBOSE] {} ServerConnector.startSession(): ServerConnector.startSession - post succeeded RunningSession { {"id":"T3YnGOLUhEWCs2WFdfUDig~~$15ee21774-6165-46ed-b312-d82973d4f6f0$24","sessionId":"00000251795555605533","batchId":"00000251795555613725","baselineId":"bf541603-3906-43c6-85d5-f3062b855fc6.e65ec7ca-b694-49fa-a551-d38d14161ff8.zLww87gvA1RoCkmZvJKrG464suVXvwLTN5QMTP2cxnA_.","url":"https://eyes.applitools.com/app/batches/00000251795555613725/00000251795555605533?accountId=T3YnGOLUhEWCs2WFdfUDig~~","isNew":true} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:38Z Eyes: [VERBOSE] {} EyesWrapper.startSession(): Server session ID is T3YnGOLUhEWCs2WFdfUDig~~$15ee21774-6165-46ed-b312-d82973d4f6f0$24
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:38Z Eyes: [LOG    ] {} EyesWrapper.startSession(): --- New test started - 'Test 2' of 'AppliFashion' "[OS = ? HostingApp = ? DisplaySize = 1200x800]
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:38Z Eyes: [VERBOSE] {00000251795555605533} EyesWrapper._ensureRunningSession(): Done!
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:38Z Eyes: [VERBOSE] {00000251795555605533} EyesWrapper.abort(): Aborting server session...
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:38Z Eyes: [VERBOSE] {00000251795555605533} ServerConnector.stopSession(): ServerConnector.stopSession called with {"isAborted":true,"updateBaseline":false} for session: RunningSession { {"id":"T3YnGOLUhEWCs2WFdfUDig~~$15ee21774-6165-46ed-b312-d82973d4f6f0$24","sessionId":"00000251795555605533","batchId":"00000251795555613725","baselineId":"bf541603-3906-43c6-85d5-f3062b855fc6.e65ec7ca-b694-49fa-a551-d38d14161ff8.zLww87gvA1RoCkmZvJKrG464suVXvwLTN5QMTP2cxnA_.","url":"https://eyes.applitools.com/app/batches/00000251795555613725/00000251795555605533?accountId=T3YnGOLUhEWCs2WFdfUDig~~","isNew":true} }
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:38Z Eyes: [VERBOSE] {00000251795555605533} (): axios request interceptor - stopSession [46--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://eyesapi.applitools.com/api/sessions/running/T3YnGOLUhEWCs2WFdfUDig~~$15ee21774-6165-46ed-b312-d82973d4f6f0$24 with params {"aborted":true,"updateBaseline":false,"apiKey":"L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:39Z Eyes: [VERBOSE] {00000251795555605533} global.<init>(): axios response interceptor - stopSession [46--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result Accepted, status code 202, url https://eyesapi.applitools.com/api/sessions/running/T3YnGOLUhEWCs2WFdfUDig~~$15ee21774-6165-46ed-b312-d82973d4f6f0$24
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:39Z Eyes: [VERBOSE] {00000251795555605533} (): axios request interceptor - stopSession [47--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://eyesapi.applitools.com/api/tasks/00637423419989994264%7e2/status with params {"apiKey":"L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:39Z Eyes: [VERBOSE] {00000251795555605533} global.<init>(): axios request interceptor - stopSession request delayed for 500 ms.
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:40Z Eyes: [VERBOSE] {00000251795555605533} global.<init>(): axios response interceptor - stopSession [47--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result Created, status code 201, url https://eyesapi.applitools.com/api/tasks/00637423419989994264%7e2/status
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:40Z Eyes: [VERBOSE] {00000251795555605533} (): axios request interceptor - stopSession [48--878b80b8-1ded-4dcd-ba30-c2cb6850e705] will now call to https://eyesapi.applitools.com/api/tasks/00637423419989994264%7e2/result with params {"apiKey":"L6n9Li14Hv2TtT1QR9ChMH0GE9EKaHA2zSmYmwnu2ao110"}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:41Z Eyes: [VERBOSE] {00000251795555605533} global.<init>(): axios response interceptor - stopSession [48--878b80b8-1ded-4dcd-ba30-c2cb6850e705] - result OK, status code 200, url https://eyesapi.applitools.com/api/tasks/00637423419989994264%7e2/result
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:41Z Eyes: [VERBOSE] {00000251795555605533} ServerConnector.stopSession(): ServerConnector.stopSession - post succeeded TestResults of new test {"id":"00000251795555605533","name":"Test 2","status":"Failed","appName":"AppliFashion","batchName":"Holiday Shopping","batchId":"00000251795555613725","branchName":"default","hostOS":"Linux","hostApp":"Chrome","hostDisplaySize":{"width":1200,"height":800},"startedAt":"2020-11-30T14:06:34.326Z","duration":4,"isNew":true,"isDifferent":false,"isAborted":true,"appUrls":{"batch":"https://eyes.applitools.com/app/test-results/00000251795555613725?accountId=T3YnGOLUhEWCs2WFdfUDig~~","session":"https://eyes.applitools.com/app/test-results/00000251795555613725/00000251795555605533?accountId=T3YnGOLUhEWCs2WFdfUDig~~"},"apiUrls":{"batch":"https://eyesapi.applitools.com/api/sessions/batches/00000251795555613725","session":"https://eyesapi.applitools.com/api/sessions/batches/00000251795555613725/00000251795555605533"},"stepsInfo":[],"steps":0,"matches":0,"mismatches":0,"missing":0,"exactMatches":0,"strictMatches":0,"contentMatches":0,"layoutMatches":0,"noneMatches":0}
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:41Z Eyes: [LOG    ] {00000251795555605533} EyesWrapper.abort(): --- Test aborted.
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+2020-11-30T14:06:41Z Eyes: [LOG    ] {} global.<init>(): closeEyes() done
+ node_modules/@applitools/eyes-sdk-core/lib/logging/ConsoleLogHandler.js
+
+[EYES: TEST RESULTS]:
+
+The following errors were found:
+Error: failed to render screenshot 098bcfab-051f-4783-8d78-f516eebadfc0 got error: Could not find target element "product_grid"
+No differences were found!
+
+See details at https://eyes.applitools.com/app/test-results/00000251795555613725?accountId=T3YnGOLUhEWCs2WFdfUDig~~
+
+
+Important notice: Your Applitools visual tests are currently running with a concurrency value of 1.
+This means that the visual tests don't run in parallel, and therefore the execution might be slower.
+If your Applitools license supports a higher concurrency level, learn how to configure it here: https://www.npmjs.com/package/@applitools/eyes-testcafe#concurrency.
+Need a higher concurrency in your account? Email us @ sdr@applitools.com with your required concurrency level.
+
+
+ node_modules/@applitools/eyes-testcafe/src/printResults.js
+null: (2) [Array(1), Array(1)]
